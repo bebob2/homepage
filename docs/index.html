@@ -10,7 +10,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Benjamin Bobkin - {% block title %}{% endblock %}</title>
+        <title>Benjamin Bobkin - 
+    Homepage
+</title>
     </head>
     <body class="d-flex flex-column min-vh-100">
         <!-- Header/Navbar -->
@@ -41,7 +43,45 @@
         </nav>
 
         <main class="flex-grow-1 container py-5">
-            {% block main %}{% endblock %}
+            
+    <h1>HELLO, WORLD!</h1>
+    <p>feel free to look around.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2><b>
+                I am BENJAMIN BOBKIN
+            </b></h2>
+
+            <p>
+                I am a currently studying <b>Computer Science</b> at <b>TU Berlin</b> <i>(Technische Universität Berlin)</i>.
+                I have created this website during my brak between my first and second semester. So as you can tell, I'm new at this.
+            </p>
+            <p>
+                This website was created as part of a CS50x2026 Problem set.
+                <i>
+                    CS50x is Harvard University’s introduction to the intellectual enterprises
+                    of computer science and the art of programming.
+                </i>
+                In particular, this is part of Problem set 8: <i>"Homepage"</i>.
+            </p>
+            <p>
+                I hope you like it.
+            </p>
+
+            <a href="about.html">
+                <button class="beautiful-button">
+                    find out more about me
+                </button>
+            </a>
+
+        </div>
+        <div class="col-md-6">
+            <img src="/static/img/selfie.jpg" alt="selfie" width="400" height="400" class="img-fluid beautiful-img">
+        </div>
+    </div>
+
+
         </main>
 
         <footer class="mt-auto">
