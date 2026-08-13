@@ -58,3 +58,18 @@ nav{
 .beautiful-img:hover{
     transform: scale(1.01);
 }
+
+.timestamp {
+    color: #888888;
+    font-size: 0.85em;
+}
+
+.beautiful-link {
+    color: #6678ab;
+    transition: color 0.3s ease;
+
+}
+
+.beautiful-link:hover {
+    color: #99aee6;
+}
