@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Teaching
+{% endblock %}
+
+{% block description%}
+Teaching overview of Benjamin Bobkin. See what he has thought others on his Portfolio
+{% endblock %}
+
+
+{% block main %}
+
+    <h1>Teaching overview</h1>
+
+    <div class="table-responsive my-4">
+        <table class="table table-striped table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Semester</th>
+                    <!-- Note for me: WiSe = Fall and SoSe = Spring -->
+                    <th scope="col">Course</th>
+                    <th scope="col">Key Topics</th>
+                    <th scope="col">Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fall 2026</td>
+                    <td><strong>Introduction to Programming</strong> (IntroProg)</td>
+                    <td>C, Basic Algorithms and Data Structures</td>
+                    <td>Tutor (Undergraduate Teaching Assistant)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="two-or-buttons d-flex flex-column flex-sm-row align-items-center justify-content-start">
+        <a href="profiles">
+            <button class="beautiful-button">
+                Stay in touch with me
+            </button>
+        </a>
+
+        <span class="separator">Or</span>
+        
+        <a href="about">
+            <button class="beautiful-button-secondary">
+                Read more about me.
+            </button>
+        </a>
+    </div>
+
+{% endblock %}
